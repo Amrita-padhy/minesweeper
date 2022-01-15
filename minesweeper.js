@@ -76,7 +76,7 @@ export function revealTile(board, tile) {
 
 }
 
-//win ro lose
+//this func tracks win
 export function checkWin(board) {
     return board.every(row => {
         return row.every(tile => {
